@@ -27,7 +27,7 @@ export function Contact() {
 
     try {
       // ⚠️ Remplace "YOUR_FORM_ID" par l'identifiant fourni par Formspree
-      const response = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+      const response = await fetch("https://formspree.io/f/mbgroyoa", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
