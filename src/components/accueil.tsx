@@ -1,8 +1,8 @@
 // src/components/accueil.tsx
 import { Code, Users, Download, ArrowRight, Sparkles } from 'lucide-react';
 import '../css/accueil.css';
-import profileImage from '../assets/image1.jpeg'; // Remplace par le chemin réel de ton image
-import cvPdf from '../fichier/Cv_PROFESSIONNEL.pdf'; // Import correct du PDF depuis le src
+import profileImage from '../assets/photo-pro.png'; // Remplace par le chemin réel de ton image
+import cvPdf from '../fichier/cv parfait.pdf'; // Import correct du PDF depuis le src
 
 export function Accueil() {
     const hardSkills = ['React', 'TypeScript', 'MongoDB', 'HTML5', 'CSS3'];
