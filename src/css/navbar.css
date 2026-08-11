@@ -1,0 +1,75 @@
+/* Navbar.css */
+
+.custom-navbar {
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  padding: 14px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.brand-logo {
+  font-size: 1.25rem;
+  color: #2b2b2b !important;
+  letter-spacing: -0.5px;
+}
+
+.text-accent {
+  color: #0d6efd; /* Couleur principale (bleu moderne, modifiable selon tes préférences) */
+}
+
+.nav-item-custom {
+  font-weight: 500;
+  color: #4a4a4a !important;
+  margin: 0 10px;
+  transition: color 0.2s ease;
+}
+
+.nav-item-custom:hover,
+.nav-item-custom:focus {
+  color: #0d6efd !important;
+}
+
+/* Bouton Contact mis en valeur dans la navbar */
+.btn-contact-nav {
+  background-color: #0d6efd;
+  color: #ffffff !important;
+  padding: 8px 18px !important;
+  border-radius: 6px;
+  text-align: center;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-contact-nav:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-1px);
+}
+
+/* Personnalisation du bouton burger */
+.custom-toggler {
+  border: none;
+  padding: 4px 8px;
+}
+
+.custom-toggler:focus {
+  box-shadow: none;
+}
+
+/* Style spécifique pour la version mobile (quand le menu est déplié) */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  .nav-item-custom {
+    padding: 8px 0;
+  }
+
+  .btn-contact-nav {
+    margin-top: 10px;
+    margin-left: 0 !important;
+  }
+}

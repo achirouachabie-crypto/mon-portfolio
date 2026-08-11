@@ -1,0 +1,18 @@
+/* src/css/projet.css */
+
+.project-carousel .project-slide-img {
+  height: 250px;
+  object-fit: cover;
+  background-color: #f1f3f5;
+}
+
+/* Effet de survol et relief pour bien détacher les blocs */
+.project-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.12) !important;
+}
