@@ -91,8 +91,8 @@ export function Contact() {
               </div>
               <div>
                 <span className="d-block text-muted small">Téléphone</span>
-                <a href="tel:0102539474" className="text-dark fw-semibold text-decoration-none">
-                  0102539474
+                <a href="tel:0714900562" className="text-dark fw-semibold text-decoration-none">
+                  0714900562
                 </a>
               </div>
             </div>
