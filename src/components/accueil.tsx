@@ -2,7 +2,7 @@
 import { Code, Users, Download, ArrowRight, Sparkles } from 'lucide-react';
 import '../css/accueil.css';
 import profileImage from '../assets/photo-pro.png'; // Remplace par le chemin réel de ton image
-import cvPdf from '../fichier/cv parfait.pdf'; // Import correct du PDF depuis le src
+import cvPdf from '../fichier/CV.pdf'; // Import correct du PDF depuis le src
 
 export function Accueil() {
     const hardSkills = ['React', 'TypeScript', 'MongoDB', 'HTML5', 'CSS3'];
